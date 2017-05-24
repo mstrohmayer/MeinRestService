@@ -7,8 +7,6 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import javax.persistence.TypedQuery;
 
-import org.eclipse.persistence.exceptions.i18n.EntityManagerSetupExceptionResource;
-
 public class BahnhofService {
 	private EntityManagerFactory emf;
 	private EntityManager em;

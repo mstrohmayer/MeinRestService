@@ -7,7 +7,7 @@
 		<class>com.sabel.restservice.Bahnhof</class>
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="org.sqlite.JDBC" />
-			<property name="javax.persistence.jdbc.url" value="jdbc:sqlite:D:/bahnhof.db" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:sqlite:F:SQLITE/bahnhof.db" />
 			<property name="javax.persistence.jdbc.user" value="root" />
 			<property name="javax.persistence.jdbc.password" value="" />
 			<property name="eclipselink.ddl-generation" value="create-or-extend-tables" />
