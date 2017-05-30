@@ -51,7 +51,7 @@ public class BahnhofResource {
 		bh.setLat(lat);
 		bh.setLon(lon);
 		bs.save(bh);		
-		return "<html><head></head><body><p>Erfolgreich hinzugefügt</p></br>" + bh.toString() + "</body></html>";
+		return "<html><head></head><body><p>Erfolgreich hinzugefï¿½gt</p></br>" + bh.toString() + "</body></html>";
 	}
 	
 	@DELETE
@@ -59,7 +59,6 @@ public class BahnhofResource {
 	@Path("/{id}")
 	public String deleteBahnhof(@PathParam("id") int id){
 		bs.remove(id);
-		return "<html><head></head><body><p>" + id + "Erfolgreich gelöscht</p></body></html>";
+		return "<html><head></head><body><p>" + id + "Erfolgreich gelï¿½scht</p></body></html>";
 	}
-
 }
